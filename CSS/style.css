@@ -1,3 +1,7 @@
 div {
     font-size: 30px;
 }
+
+#imie, #nazwisko, #nr_tel, #email, #miasto, #dane_osob, #plec_inna, div {
+    margin-bottom: 15px;
+}

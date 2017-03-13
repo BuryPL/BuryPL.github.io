@@ -8,15 +8,15 @@
 <body>
     <div>Formularz zgłoszeniowy uczestnika na szkolenie</div>
        <form action="https://formspree.io/burypl@gmail.com" method="post">
-        <label for="imie">Imię:</label><br/>
+        <label for="imie">Imię: </label>
             <input type="text" name="imie" id="imie"><br/>
-        <label for="nazwisko">Nazwisko:</label><br />
+        <label for="nazwisko">Nazwisko: </label>
             <input type="text" name="nazwisko" id="nazwisko"><br/>
-        <label for="email">Email:</label><br/>
+        <label for="email">Email: </label>
             <input type="email" name="email" id="email"><br/>
-        <label for="nr_tel">Numer telefonu:</label><br/>
+        <label for="nr_tel">Numer telefonu: </label>
             <input type="text" name="nr_tel" id="nr_tel"><br/>
-        <label for="miasto">Miasto:</label><br/>
+        <label for="miasto">Miasto: </label>
             <select name="miasto" id="miasto">
                 <option value="warszawa">Warszawa</option>
                 <option value="krakow">Kraków</option>
@@ -25,10 +25,12 @@
         <label>Płeć:</label><br/>
             <input type="radio" name="plec">Kobieta<br/>
             <input type="radio" name="plec">Mężczyzna<br/>
-            <input type="radio" name="plec">Inna<br/>
+            <input type="radio" name="plec" id="plec_inna">Inna<br/>
+        <input type="checkbox" name="dane_osob" id="dane_osob">
+           <label for="dane_osob">Wyrażam zgodę na przetwarzanie moich danych osobowych</label><br/> 
         <label for="wiadomosc">Wiadomość:</label><br/>
             <textarea name="message" id="wiadomosc" cols="30" rows="10"></textarea><br/>
-        <input type="submit" value="submit">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
