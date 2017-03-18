@@ -6,14 +6,13 @@ div {
 
 * {
     font-size: 15px;
+    color:#fff;
+    font-family: verdana;
 }
+
 form {
     background-color: #213b50;
     padding: 20px;
-}
-
-label{
-    color:#fff;
 }
 
 input, select, textarea {
@@ -25,13 +24,8 @@ input, select, textarea {
 input[type="submit"] {
     background-color: greenyellow;
     padding: 10px;
-    color: #fff;
     font-weight: bold;
     font-size: 15px;
-}
-
-label[for="dane_osobowe"] {
-    margin-bottom: 10px;
 }
 
 input[type="text"], input[type="email"], select[name="miasto"], textarea {
@@ -40,7 +34,8 @@ input[type="text"], input[type="email"], select[name="miasto"], textarea {
 
 input:focus, textarea:focus, select:focus {
     background-color: #4e708c;
-    border: 2px solid white;
+    border: 1px solid white;
+    outline: none;
 }
 
 #plec_mezczyzna {
