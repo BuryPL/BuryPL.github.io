@@ -1,7 +1,62 @@
+body {
+    background-color: dimgray;
+}
 div {
-    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    
+    font-size: 40px;
+    font-family: nova-square;  
+    color: beige;
+    font-style: italic;
 }
 
-#imie, #nazwisko, #nr_tel, #email, #miasto, #dane_osob, #plec_inna, div {
-    margin-bottom: 15px;
+form {
+    position: relative;
+    width:100%;
+    text-align: center;
 }
+
+
+input {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+}
+
+
+
+
+
+
+/*
+#imie, #nazwisko, #nr_tel, #email, #miasto {
+    left: 120px;
+    margin-bottom: 20px;
+}
+
+.plec {
+    left: 120px;
+}
+
+span {
+    left: 150px;
+}
+
+
+
+label {
+    position: absolute;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#dane_osob+label {
+    left:20px;
+    width: 500px;
+}
+
+
+
+
