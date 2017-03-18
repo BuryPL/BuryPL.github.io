@@ -6,27 +6,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>Formularz zgłoszeniowy uczestnika na szkolenie</div>   
+    <div>Formularz zgłoszeniowy uczestnika na szkolenie</div>
        <form action="https://formspree.io/burypl@gmail.com" method="post">
-<!--        <label for="imie">Imię: </label>-->
-            <input type="text" name="imie" id="imie" value="Imię" size="35px"><br/>
-<!--         placeholder!-->
-<!--        <label for="nazwisko">Nazwisko: </label>-->
-            <input type="text" name="nazwisko" id="nazwisko" value="Nazwisko" size="35px"><br/>
-<!--        <label for="email">Email: </label>-->
-            <input type="email" name="email" id="email" value="Email" size="35px"><br/>
-<!--        <label for="nr_tel">Numer telefonu: </label>-->
-            <input type="text" name="nr_tel" id="nr_tel" value="Numer telefonu" size="35px"><br/>
+        <label for="imie">Imię: </label>
+            <input type="text" name="imie" id="imie"><br/>
+        <label for="nazwisko">Nazwisko: </label>
+            <input type="text" name="nazwisko" id="nazwisko"><br/>
+        <label for="email">Email: </label>
+            <input type="email" name="email" id="email"><br/>
+        <label for="nr_tel">Numer telefonu: </label>
+            <input type="text" name="nr_tel" id="nr_tel"><br/>
         <label for="miasto">Miasto: </label>
             <select name="miasto" id="miasto">
                 <option value="warszawa">Warszawa</option>
                 <option value="krakow">Kraków</option>
                 <option value="gdans">Gdańsk</option>
            </select><br/>
-<!--        <label>Płeć:</label>-->
-            <input type="radio" name="plec" class="plec"><span>Kobieta</span><br/>
-            <input type="radio" name="plec" class="plec"><span>Mężczyzna</span><br/>
-            <input type="radio" name="plec" class="plec"><span>Inna</span><br/>
+        <label>Płeć:</label><br/>
+            <input type="radio" name="plec">Kobieta<br/>
+            <input type="radio" name="plec">Mężczyzna<br/>
+            <input type="radio" name="plec" id="plec_inna">Inna<br/>
         <input type="checkbox" name="dane_osob" id="dane_osob">
            <label for="dane_osob">Wyrażam zgodę na przetwarzanie moich danych osobowych</label><br/> 
         <label for="wiadomosc">Wiadomość:</label><br/>
