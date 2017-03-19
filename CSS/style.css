@@ -1,10 +1,7 @@
-* {
+body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
-}
-
-body {
     margin: 0;
 }
 
@@ -74,11 +71,6 @@ span {
     background-color: #f9fcfe;
     margin: 0;
     padding: 0;
-/*
-    border-bottom-width: 10px;
-    border-bottom-style: solid;
-    border-bottom-im
-*/
 }
 
 #about_header {
@@ -119,5 +111,33 @@ article.about_content {
 }
 
 .skills_icons {
+    display: inline-block;
+}
+
+#contact {
+    background-color: #213b50;
+    color: #fff;
+}
+
+#contact_data {
+    display: inline-block;
+    padding: 25px;
+}
+
+adress a {
+    color: #1ac056;
+}
+
+.contact_social_icons {
+    text-align: center;
+    padding: 15px;
+}
+
+.contact_social_icons>a>i{
+    padding: 5px;
+    border: solid #fff 1px;
+}
+
+.contact_form {
     display: inline-block;
 }
