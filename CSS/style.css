@@ -4,6 +4,10 @@
     font-weight: 300;
 }
 
+body {
+    margin: 0;
+}
+
 #main_nav {
     position: fixed;
     width: 100%;
@@ -16,19 +20,46 @@ ul {
     list-style-type: none;
 }
 
-.menu-element {
+.menu_element {
     display: inline-block;
     text-decoration: none;
     margin-left: 15px;
 }
 
-.menu-element a {
+.menu_element a {
     text-decoration: none;
     color: #1ac056;
     font-weight: 300;
 }
 
-.menu-element a:hover {
+
+.menu_element a:hover {
     color: #291f1a;
 }
 
+#main_header {
+    height: 100vh;
+    background-image:url("../img/header-background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main_header_content {
+    padding: 35vh;
+    text-align: center;
+}
+
+.main_header_content h1 {
+    font-size: 15vh;
+    margin: 0;
+}
+
+.main_header_content h2 {
+    font-size: 8vh;
+    margin: 0;
+}
+
+div span {
+    color: #1ac056;
+    font-weight: 500;
+}
