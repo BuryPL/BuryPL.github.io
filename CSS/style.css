@@ -44,6 +44,8 @@ ul:last-child {
     background-image: url("../img/header-background.jpg");
     background-position: center;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .main_header_content {
@@ -61,7 +63,7 @@ ul:last-child {
     margin: 0;
 }
 
-div span {
+span {
     color: #1ac056;
     font-weight: 500;
 }
@@ -69,12 +71,21 @@ div span {
 #about {
     text-align: center;
     width: 100%;
+    background-color: #f9fcfe;
+    margin: 0;
+    padding: 0;
+/*
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-im
+*/
 }
 
 #about_header {
     font-size: 8vh;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-top: 0;
+    padding-top: 30px;
 }
 
 .about_image img {
@@ -97,6 +108,14 @@ article.about_content {
     width: 49%;
     height: px;
     vertical-align: top;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skills_header {
+    font-size: 8vh;
 }
 
 .skills_icons {
