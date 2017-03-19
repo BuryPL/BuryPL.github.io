@@ -3,3 +3,32 @@
     color: #291f1a;
     font-weight: 300;
 }
+
+#main_nav {
+    position: fixed;
+    width: 100%;
+    background-color: #ffff;
+    right: 15px;
+}
+
+ul {
+     text-align: right;
+    list-style-type: none;
+}
+
+.menu-element {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu-element a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+.menu-element a:hover {
+    color: #291f1a;
+}
+
