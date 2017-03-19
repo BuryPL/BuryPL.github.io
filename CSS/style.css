@@ -11,12 +11,11 @@ body {
 #main_nav {
     position: fixed;
     width: 100%;
-    background-color: #ffff;
-    right: 15px;
+    background-color: #fff;
 }
 
 ul {
-     text-align: right;
+    text-align: right;
     list-style-type: none;
 }
 
@@ -26,12 +25,15 @@ ul {
     margin-left: 15px;
 }
 
+ul:last-child {
+    margin-right: 15px;
+}
+
 .menu_element a {
     text-decoration: none;
     color: #1ac056;
     font-weight: 300;
 }
-
 
 .menu_element a:hover {
     color: #291f1a;
@@ -39,7 +41,7 @@ ul {
 
 #main_header {
     height: 100vh;
-    background-image:url("../img/header-background.jpg");
+    background-image: url("../img/header-background.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -62,4 +64,41 @@ ul {
 div span {
     color: #1ac056;
     font-weight: 500;
+}
+
+#about {
+    text-align: center;
+    width: 100%;
+}
+
+#about_header {
+    font-size: 8vh;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about_image img {
+    max-height: 350px;
+    border: 15px solid;
+    border-radius: 10px;
+}
+
+.about_image {
+    display: inline-block;
+    margin: 0;
+    width: 49%;
+    height: 395px;
+    text-align: center;
+}
+
+article.about_content {
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+    height: px;
+    vertical-align: top;
+}
+
+.skills_icons {
+    display: inline-block;
 }
