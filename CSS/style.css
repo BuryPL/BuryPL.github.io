@@ -121,7 +121,14 @@ article.about_content {
 
 #contact_data {
     display: inline-block;
-    padding: 25px;
+    width: 35%;
+    padding: 35px;
+    padding-left: 5%;
+}
+
+#contact_data>h2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 adress a {
@@ -129,7 +136,7 @@ adress a {
 }
 
 .contact_social_icons {
-    text-align: center;
+    margin-top: 30px;
     padding: 15px;
 }
 
@@ -138,7 +145,40 @@ adress a {
     border: solid #fff 1px;
 }
 
-.contact_form {
-    display: inline-block;
+.contact_social_icons>a:visited {
+    color: #fff;
 }
 
+.contact_form {
+    display: inline-block;
+    box-sizing: border-box;
+    top: 50%;    
+    width: 55%;
+    padding: 3%;
+}
+
+form>input[name] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #2b4a64;
+    border: 0;
+}
+
+form>textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: .8%;
+    background-color: #2b4a64;
+    border: 0;
+}
+
+form>input[type="submit"] {
+    background-color: greenyellow;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0;
+}
