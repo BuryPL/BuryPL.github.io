@@ -35,14 +35,14 @@
     .main_header_content {
         padding: 10%;
     }
-    figure {
-        width: 100%;
+    #about > figure {
+        width: 98%;
     }
-    figure>img {
+    #about>figure>img {
         max-height: inherit;
     }
-    article {
-        width: 100%;
+    #about>article {
+        width: 98%;
     }
     .single_portfolio_item {
         width: 100%;

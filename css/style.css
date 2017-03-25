@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+/*
+section {
+    padding: 0 80px 100px;
+    width: 100%;
+}
+*/
 
 /*Sekcja menu*/
 
@@ -81,14 +87,44 @@ span {
 
 /*sekcja about*/
 
+
 #about {
+    display: inline-block;
     text-align: center;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
     background-color: #f9fcfe;
+/*
     margin: 0;
     padding: 0;
+*/
 }
 
+#about > figure {
+    width: 49%;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+
+#about > article {
+    width: 49%;
+    float:left;
+}
+
+#about > figure > img {
+    max-height: 350px;
+    border: 14px #fff solid;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+#about > h2 {
+    margin-top: 0;
+    font-size: 8vh;
+}
+/*
 #about_header {
     font-size: 8vh;
     font-weight: 400;
@@ -117,12 +153,14 @@ article.about_content {
     height: px;
     vertical-align: top;
 }
+*/
 
 
 /*Sekcja Skills*/
 
 #skills {
     text-align: center;
+    clear: both;
 }
 
 .skills_header {
