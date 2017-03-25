@@ -123,6 +123,15 @@ article.about_content {
 
 
 /*Sekcja portfolio*/
+#portfolio {
+    text-align: center;
+    padding: 5%;
+}
+
+#portfolio>h2 {
+    font-size: 8vh;s
+}
+
 .portfolio_items {
     text-align: center;
     font-size: 0;
@@ -148,6 +157,50 @@ article.about_content {
 
 #portfolio_item_3 {
     background-image: url(../img/portfolio3.jpg)
+}
+
+.single_portfolio_item_mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(42, 61, 79, 0.8);
+    font-size: initial;
+}
+
+.single_portfolio_item_mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.single_portfolio_item_mask_content {
+    position: relative;
+    height: 330px;
+    margin: 10px;
+    border: 1px solid #fff;
+}
+
+.single_portfolio_item_mask_content_inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 5px;
+    color: #fff;
+}
+
+.single_portfolio_item_mask_content_inner>a {
+    font-size: 2rem;
+}
+
+.single_portfolio_item_mask_content_inner>a:visited {
+    color: #fff;
+}
+
+.single_portfolio_item_mask_content_inner>a:hover {
+    color: #1ac056;
 }
 
 
