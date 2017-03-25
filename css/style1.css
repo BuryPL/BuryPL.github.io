@@ -1,0 +1,296 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*Sekcja menu*/
+#main_nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.toggle, #drop {
+    display: none;
+}
+
+ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+.menu_element {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+ul:last-child {
+    margin-right: 15px;
+}
+
+.menu_element a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+.menu_element a:hover {
+    color: #291f1a;
+}
+
+
+/*sekcja header*/
+#main_header {
+    height: 100vh;
+    background-image: url("../img/header-background.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.main_header_content {
+    padding: 35vh;
+    text-align: center;
+    color: #fff;
+}
+
+.main_header_content h1 {
+    font-size: 15vh;
+    margin: 0;
+}
+
+.main_header_content h2 {
+    font-size: 8vh;
+    margin: 0;
+}
+
+span {
+    color: #1ac056;
+    font-weight: 500;
+}
+
+
+/*sekcja about*/
+#about {
+    text-align: center;
+    width: 100%;
+    background-color: #f9fcfe;
+    margin: 0;
+    padding: 0;
+}
+
+#about_header {
+    font-size: 8vh;
+    font-weight: 400;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.about_image img {
+    max-height: 350px;
+    border: 15px solid #fff;
+    border-radius: 10px;
+}
+
+.about_image {
+    display: inline-block;
+    margin: 0;
+    width: 49%;
+    height: 395px;
+    text-align: center;
+}
+
+article.about_content {
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+    height: px;
+    vertical-align: top;
+}
+
+
+/*Sekcja Skills*/
+#skills {
+    text-align: center;
+}
+
+.skills_header {
+    font-size: 8vh;
+}
+
+.skills_icons {
+    display: inline-block;
+}
+
+
+/*Sekcja portfolio*/
+#portfolio {
+    text-align: center;
+    padding: 5%;
+}
+
+#portfolio>h2 {
+    font-size: 8vh;s
+}
+
+.portfolio_items {
+    text-align: center;
+    font-size: 0;
+}
+
+.single_portfolio_item {
+    position: relative;
+    display: inline-block;
+    height: 350px;
+    width: 33.3333%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio_item_1 {
+    background-image: url(../img/portfolio1.jpg)
+}
+
+#portfolio_item_2 {
+    background-image: url(../img/portfolio2.jpg)
+}
+
+#portfolio_item_3 {
+    background-image: url(../img/portfolio3.jpg)
+}
+
+.single_portfolio_item_mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(42, 61, 79, 0.8);
+    font-size: initial;
+}
+
+.single_portfolio_item_mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.single_portfolio_item_mask_content {
+    position: relative;
+    height: 330px;
+    margin: 10px;
+    border: 1px solid #fff;
+}
+
+.single_portfolio_item_mask_content_inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 5px;
+    color: #fff;
+}
+
+.single_portfolio_item_mask_content_inner>a {
+    font-size: 2rem;
+}
+
+.single_portfolio_item_mask_content_inner>a:visited {
+    color: #fff;
+}
+
+.single_portfolio_item_mask_content_inner>a:hover {
+    color: #1ac056;
+}
+
+
+/*Sekcja contact*/
+#contact {
+    background-color: #213b50;
+    color: #fff;
+}
+
+#contact_data {
+    display: inline-block;
+    width: 35%;
+    padding: 35px;
+    padding-left: 5%;
+}
+
+#contact_data>h2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+adress a {
+    color: #1ac056;
+}
+
+.contact_social_icons {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.contact_social_icons>a>i{
+    padding: 5px;
+    border: solid #fff 1px;
+}
+
+.contact_social_icons>a:visited {
+    color: #fff;
+}
+
+.contact_form {
+    display: inline-block;
+    box-sizing: border-box;
+    top: 50%;    
+    width: 55%;
+    padding: 3%;
+    text-align: right;
+}
+
+form>input[name] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #2b4a64;
+    border: 0;
+}
+
+form>textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: .8%;
+    background-color: #2b4a64;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+form>input[type="submit"] {
+    background-color: greenyellow;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*sekcja footer*/
+footer {
+    background-color: #142634;
+    padding: 15px 80px;
+    color: #fff;
+}
+footer>p {
+    margin: 0;
+}
