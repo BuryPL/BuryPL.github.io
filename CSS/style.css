@@ -93,7 +93,7 @@ span {
 
 .about_image img {
     max-height: 350px;
-    border: 15px solid;
+    border: 15px solid #fff;
     border-radius: 10px;
 }
 
