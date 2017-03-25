@@ -5,7 +5,9 @@ body {
     margin: 0;
 }
 
+
 /*Sekcja menu*/
+
 #main_nav {
     position: fixed;
     width: 100%;
@@ -13,7 +15,8 @@ body {
     z-index: 1;
 }
 
-.toggle, #drop {
+.toggle,
+#drop {
     display: none;
 }
 
@@ -44,6 +47,7 @@ ul:last-child {
 
 
 /*sekcja header*/
+
 #main_header {
     height: 100vh;
     background-image: url("../img/header-background.jpg");
@@ -76,6 +80,7 @@ span {
 
 
 /*sekcja about*/
+
 #about {
     text-align: center;
     width: 100%;
@@ -115,6 +120,7 @@ article.about_content {
 
 
 /*Sekcja Skills*/
+
 #skills {
     text-align: center;
 }
@@ -129,13 +135,15 @@ article.about_content {
 
 
 /*Sekcja portfolio*/
+
 #portfolio {
     text-align: center;
     padding: 5%;
 }
 
 #portfolio>h2 {
-    font-size: 8vh;s
+    font-size: 8vh;
+    s
 }
 
 .portfolio_items {
@@ -211,6 +219,7 @@ article.about_content {
 
 
 /*Sekcja contact*/
+
 #contact {
     background-color: #213b50;
     color: #fff;
@@ -237,7 +246,7 @@ adress a {
     padding: 15px;
 }
 
-.contact_social_icons>a>i{
+.contact_social_icons>a>i {
     padding: 5px;
     border: solid #fff 1px;
 }
@@ -249,7 +258,7 @@ adress a {
 .contact_form {
     display: inline-block;
     box-sizing: border-box;
-    top: 50%;    
+    top: 50%;
     width: 55%;
     padding: 3%;
     text-align: right;
@@ -285,12 +294,15 @@ form>input[type="submit"] {
     color: #fff;
 }
 
+
 /*sekcja footer*/
+
 footer {
     background-color: #142634;
     padding: 15px 80px;
     color: #fff;
 }
+
 footer>p {
     margin: 0;
 }
