@@ -3,6 +3,7 @@ body {
     color: #291f1a;
     font-weight: 300;
     margin: 0;
+    width: 100%;
 }
 
 /*
@@ -181,7 +182,6 @@ article.about_content {
 
 #portfolio>h2 {
     font-size: 8vh;
-    s
 }
 
 .portfolio_items {

@@ -1,4 +1,4 @@
-@media all and (max-width:1200px) {
+@media all and (max-width:1200px), (max-device-width:1200px) {
     .single_portfolio_item {
         width: 50%;
     }
@@ -7,7 +7,7 @@
     }
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width:768px), (max-device-width:768px) {
     .toggle {
         display: block;
         background-color: #fff;
@@ -60,7 +60,7 @@
     
 }
 
-@media all and (max-width:680px) {
+@media all and (max-width:680px), (max-device-width:680px) {
     section {
         padding: 0 40px 50px;
     }
@@ -72,7 +72,7 @@
     }
 }
 
-@media all and (max-width:480px) {
+@media all and (max-width:480px), (max-device-width:480px) {
     section {
         padding: 0 10px 30px;
     }
