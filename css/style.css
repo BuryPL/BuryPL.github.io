@@ -101,7 +101,6 @@ section {
     max-height: 350px;
     border: 14px #fff solid;
     border-radius: 15px;
-    max-width: 100%;
 }
 /*STYLES FOR ABOUT STOP*/
 
@@ -111,12 +110,7 @@ section {
 
 /*STYLES FOR SKILLS START*/
 #skills {
-    clear: both;
     padding-top: 20px;
-}
-
-#skills .skills_icons {
-    display: inline-block;
 }
 /*STYLES FOR SKILLS STOP*/
 
@@ -135,10 +129,9 @@ section {
 }
 
 .single_portfolio_item {
+    padding: 0;
     position: relative;
-    display: inline-block;
     height: 350px;
-    width: 33.3333%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
