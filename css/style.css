@@ -49,7 +49,6 @@ section {
     border: none;
 }
 
-
 #menu_list a {
     color: #1ac056;
 }
@@ -72,7 +71,7 @@ section {
 }
 
 #main_header>.main_header_content {
-    padding: 35vh;
+    padding: 35vh 0;
     text-align: center;
     color: #fff;
 }
