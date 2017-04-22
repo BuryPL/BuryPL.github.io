@@ -83,26 +83,21 @@ section {
 
 /*STYLES FOR ABOUT START*/
 #about {
-    display: inline-block;
-    width: 100%;
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: #f9fcfe;
 }
 
-#about > .about_image {
-    width: 49%;
+#about .about_image {
     margin: 0;
-    float: left;
     text-align: center;
 }
 
-#about > .about_content {
-    width: 49%;
-    float:left;
+#about .about_content {
+    text-align: left;
 }
 
-#about > figure > img {
+#about figure > img {
     max-height: 350px;
     border: 14px #fff solid;
     border-radius: 15px;
