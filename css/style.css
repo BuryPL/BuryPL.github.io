@@ -44,35 +44,17 @@ section {
 
 
 /*STYLES FOR MENU START*/
-#main_nav {
-    position: fixed;
-    width: 100%;
+#menu {
     background-color: #fff;
-    z-index: 1;
+    border: none;
 }
 
-#main_nav .toggle,#main_nav #drop {
-    display: none; /*do responsywności*/
-}
 
-#main_nav>ul {
-    text-align: right;
-    list-style-type: none;
-}
-
-#main_nav>ul .menu_element {
-    display: inline-block;
-    text-decoration: none;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-#main_nav>ul>.menu_element a {
-    text-decoration: none;
+#menu_list a {
     color: #1ac056;
 }
 
-#main_nav>ul>.menu_element a:hover {
+#menu li>a:hover {
     color: #291f1a;
 }
 /*STYLES FOR MENU STOP*/
